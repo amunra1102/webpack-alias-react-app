@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #34495E;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 15px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
